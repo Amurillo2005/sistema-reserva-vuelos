@@ -3,6 +3,7 @@ import "./Register.css"
 
 
 export const Register = () => {
+
   const [formData, setFormData] = useState({
     nombre: '',
     apellido: '',
