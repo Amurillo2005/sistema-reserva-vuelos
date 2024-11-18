@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "./Register.css"
 
 
 export const Register = () => {
@@ -9,7 +10,6 @@ export const Register = () => {
     identificacion: '',
     email: '',
     contraseña: '',
-    telefono: ''
   });
 
   const handleChange = (e) => {
