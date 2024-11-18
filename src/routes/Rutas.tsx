@@ -6,15 +6,18 @@ import { Login } from "../pages/Login/Login.jsx";
 import { TarjetaVuelo } from "../pages/Card/TarjetaVuelo.jsx";
 
 const Rutas = () => {
+
   return (
-    <Router>
-      <Routes>
-        <Route path="/vuelos" element={<ViewFlights />} />
-        <Route path="/Register" element={<Register />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/TarjetaVuelo" element={<TarjetaVuelo />} />
-      </Routes>
-    </Router >
+    <>
+        <Router>
+          <Routes>
+            <Route path="/vuelos" element={<ViewFlights />} />
+            <Route path="/Register" element={<Register />} />
+            <Route path="/Login" element={<Login />} />
+            <Route path="/TarjetaVuelo" element={<TarjetaVuelo />} />
+          </Routes>
+        </Router >
+    </>
   );
 };
 

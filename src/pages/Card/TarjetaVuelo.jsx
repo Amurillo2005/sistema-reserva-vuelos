@@ -3,6 +3,7 @@ import "./TarjetaVuelo.css"
 export const TarjetaVuelo = () => {
     return (
         <>
+        <div className="main">
             <div className="TarjetaVuelo">
                 <div className="imgAerolinea">
                     <img src="../public/Avianca-logo.png" alt="Logo de avianca" />
@@ -30,6 +31,7 @@ export const TarjetaVuelo = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </>
     )
 }

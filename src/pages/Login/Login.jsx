@@ -24,6 +24,7 @@ export const Login = () => {
 
     return (
         <>
+        <div className="main">
             <div className="wrapper">
                 <form action="" onSubmit={handleSubmit}>
                     <h2>Iniciar sesión</h2>
@@ -37,6 +38,7 @@ export const Login = () => {
                     <button type="submit">Iniciar sesión</button>
                 </form>
             </div>
+        </div>
         </>
     )
 }

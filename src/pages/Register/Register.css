@@ -7,16 +7,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-image: url("../avion.jpg");
-    object-fit: cover;
-    background-position: center;
-    background-size: cover;
-}
+
 
 .wrapper{
     width: 420px;
