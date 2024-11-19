@@ -10,7 +10,7 @@ export const TarjetaVuelo = () => {
                 </div>
                 <div className="infoVuelo">
                     <span>Vuelo 1234</span>
-                    <p name="" id="" className="descripcion">Aquí va la descripcion del vuelo</p>
+                    <p className="descripcion">Aquí va la descripcion del vuelo</p>
                     <div className="origenDestino">
                         <span>Barranquilla</span>
                         <span>-</span>

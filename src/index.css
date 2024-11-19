@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 .main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
     background-image: url("../avion.jpg");
     object-fit: cover;
     background-position: center;

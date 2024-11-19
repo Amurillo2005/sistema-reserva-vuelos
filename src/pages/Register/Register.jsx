@@ -5,12 +5,13 @@ import "./Register.css"
 export const Register = () => {
 
   const [formData, setFormData] = useState({
-    nombre: '',
-    apellido: '',
     usuario: '',
     identificacion: '',
     email: '',
     contraseña: '',
+    pasaporte: '',
+    contacto: '',
+    direccion: '',
   });
 
   const handleChange = (e) => {
@@ -29,14 +30,8 @@ export const Register = () => {
     <>
       <div className="main">
         <div className="wrapper">
-          <form action="" onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit}>
             <h2>Registrarse</h2>
-            <div className="input-box">
-              <input type="text" name="nombre" value={formData.nombre} placeholder="Nombre" onChange={handleChange} />
-            </div>
-            <div className="input-box">
-              <input type="text" name="apellido" value={formData.apellido} placeholder="Apellido" onChange={handleChange} />
-            </div>
             <div className="input-box">
               <input type="text" name="usuario" value={formData.usuario} placeholder="Usuario" onChange={handleChange} />
             </div>
@@ -48,6 +43,15 @@ export const Register = () => {
             </div>
             <div className="input-box">
               <input type="password" name="contraseña" value={formData.contraseña} placeholder="Contraseña" onChange={handleChange} />
+            </div>
+            <div className="input-box">
+              <input type="text" name="pasaporte" value={formData.pasaporte} placeholder="Pasaporte" onChange={handleChange} />
+            </div>
+            <div className="input-box">
+              <input type="text" name="contacto" value={formData.contacto} placeholder="Contacto" onChange={handleChange} />
+            </div>
+            <div className="input-box">
+              <input type="text" name="direccion" value={formData.direccion} placeholder="Direccion" onChange={handleChange} />
             </div>
 
             <button type="submit">Registrarse</button>
